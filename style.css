@@ -8,7 +8,7 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(1.jpg);
     background-position: center;
     background-size: cover;
-    height: 109vh;
+    height: 100vh;
 }
 .navbar{
 width: 1200px;
@@ -267,6 +267,7 @@ text-align: center;
     color: #ff7200;
 
 }
+
 
 
 
