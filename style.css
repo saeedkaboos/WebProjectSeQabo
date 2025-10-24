@@ -267,3 +267,59 @@ text-align: center;
     color: #ff7200;
 
 }
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .menu ul {
+    flex-direction: column;
+  }
+
+  .search {
+    justify-content: center;
+  }
+
+  .content h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .content .par {
+    text-align: center;
+  }
+
+  .form {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 25px;
+  }
+
+  .menu ul li {
+    margin: 8px 0;
+  }
+
+  .srch {
+    width: 150px;
+  }
+
+  .content h1 {
+    font-size: 28px;
+  }
+
+  .content .cn {
+    width: 120px;
+    height: 35px;
+    font-size: 16px;
+  }
+}
+
+
